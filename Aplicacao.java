@@ -43,7 +43,6 @@ public class Aplicacao {
                         System.out.println("Digite o email do leitor:");
                         String email = scanner.nextLine();
 
-                        // ordem do enunciado: codigo, nome, email
                         Leitor leitor = new Leitor(codigo, nome, email);
 
                         if (biblioteca.cadastrarLeitor(leitor)) {
